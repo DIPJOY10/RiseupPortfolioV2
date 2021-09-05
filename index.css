@@ -583,45 +583,6 @@ p {
 
 /*subfooter*/
 
-/*footer*/
-
-.footer {
-  position: absolute;
-  top: 814%;
-  left: 12%;
-  /* color: #ffcc29; */
-  color: black;
-  width: 75vw;
-  height: 20vh;
-  font-size: 1em;
-  border-top: 1px solid black;
-}
-
-.footer-overlay {
-  width: 100vw;
-  height: 85vh;
-  background-color: black;
-  position: absolute;
-  top: 750%;
-  /* z-index: -1; */
-  background: #a8ff78;
-  background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
-  background: linear-gradient(to right, #78ffd6, #a8ff78);
-}
-
-.footer > p {
-  display: inline-flex;
-  position: relative;
-  left: -15%;
-  top: 0;
-}
-.footer > p {
-  padding-top: 1vw;
-  padding-left: 30vw;
-}
-
-/*footer*/
-
 /*media queries*/
 
 @media (max-width: 992px) {
