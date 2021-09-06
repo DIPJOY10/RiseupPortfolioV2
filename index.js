@@ -13,6 +13,10 @@ app.get("/private-limited", (req, res) => {
   res.render("private-limited");
 });
 
+app.get("/one-person", (req, res) => {
+  res.render("one-person");
+});
+
 app.listen(process.env.PORT || PORT, () => {
   console.log("Server running on port 8000!");
 });
